@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trigger Random</title>
+
+  <!-- Added link to the jQuery library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <!-- Added a link to Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+
+<div class = "container">
+
+  <div class ="row">
+
+
+  <div class="col-lg-12">
+
+    <h1 class="text-center">Telly Tubbies match-a-number game</h1>
+
+  </div>
+
+</div>
+<div class="row">
+  <div id="intro" class = "col-lg-12">
+
+  <p>The Telly Tubbies are up to no good again! They want to test your number skills big time! Each Telly Tubby will give you a random number between 1 and 12 and you have to add the numbers together to match the target number they have given you...but you don't know what number each Telly Tubby will give you until you click on each of them!!! Good luck....but be careful...go over the number and you LOSE !!!! </p>
+  </div>
+</div>
+
+  <div class ="row">
+
+<div id="telly1" class = "col-lg-3 tellys">
+
+  <img src="assets/images/telly1.jpg" class="tubbies">
+
+</div>
+
+<div id="telly2" class = "col-lg-3 tellys">
+  <img src="assets/images/telly2.jpg" class="tubbies">
+</div>
+
+<div id="telly3" class = "col-lg-3 tellys">
+
+  <img src="assets/images/telly3.jpg" class="tubbies">
+</div>
+
+<div id="telly4" class = "col-lg-3 tellys">
+ 
+  <img src="assets/images/telly4.jpg" class="tubbies">
+</div>
+
+</div>
+
+  <div class ="row">
+
+
+
+<div id="val1" class = "col-lg-3 vals">
+  ???
+</div>
+
+<div id="val2" class = "col-lg-3 vals">
+  ???
+</div>
+
+<div id="val3" class = "col-lg-3 vals">
+  ???
+</div>
+<div id="val4" class = "col-lg-3 vals">
+  ???
+</div>
+
+
+<div id="scoreboard">
+</div>
+  <h1 class="text-center"> Target is:   <span id="random-number"></span></h1>
+  </div>
+
+  <div>
+  <h1 class="text-center"> Current Score is:   <span id="currentscore"></span></h1>
+  </div>
+
+ <div>
+  <h1 class="text-center"> Wins:   <span id="wins"></span></h1>
+  </div>
+
+   <div>
+  <h1 class="text-center"> Losses:   <span id="losses"></span></h1>
+  </div>
+</div>
+
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
