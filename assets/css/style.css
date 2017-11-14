@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: sans-serif;
+    font-family: "Comic Sans MS", cursive, sans-serif;
     background-image: url("../images/back.jpg");
 
 }
@@ -12,9 +12,26 @@ p{
 }
 
 #logo{
-    margin-left: 35%;
-    height: 300px;
-    width :350px;
+    margin-left: 40%;
+    height: 100px;
+    width :200px;
+
+}
+#wins{
+    font-size: 20px;
+
+
+}
+#losses{
+    font-size: 20px;
+}
+.status{
+    font-size: 25px;
+
+}
+
+.current{
+    font-size: 30px;
 
 }
 
@@ -40,26 +57,22 @@ p{
 
 #scoreboard{
     margin-top:10px;
-    background-color: yellow;
-    font-size: 40px;
+
+    font-size: 400px;
+
 }
 
 #intro{
-    font-size: 20px;
+    font-size: 18px;
     background-color: lightgoldenrodyellow;
+    border: solid;
+    border-color: orange;
 }
 #header{
     font-family: 'Allerta Stencil';font-size: 29px;
     color: white;
     padding:10px;
 }
-#maingame{
-    background-color: slategrey;
-    width: 400px;
-    padding:20px;
-    margin-left: 33%;
-    opacity:0.8;
 
-}
 
 
