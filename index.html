@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Trigger Random</title>
+  <title>Telly Tubbies number game</title>
 
   <!-- Added link to the jQuery library -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -13,8 +13,10 @@
 
 </head>
 <body>
-
+<!-- main container -->
 <div class = "container">
+
+<!--   Row and column for the teletubbies logo -->
 
   <div class ="row">
 
@@ -26,6 +28,8 @@
   </div>
 
 </div>
+
+<!-- row and column for the instructions -->
 <div class="row">
   <div id="intro" class = "col-lg-12">
 
@@ -33,6 +37,7 @@
   </div>
 </div>
 
+<!-- row with 4 columns, one for each of the teletubby images -->
   <div class ="row">
 
 <div id="telly1" class = "col-lg-3 tellys">
@@ -57,6 +62,8 @@
 
 </div>
 
+<!-- Row with 4 columns, one for each of the random number values generated for the game -->
+
   <div class ="row">
 
 
@@ -76,6 +83,7 @@
   Po says <span id="val4"></span>
 </div>
 
+<!-- Score board to show the target number, current score, wins and losses -->
 
 <div id="scoreboard">
 </div>
@@ -94,7 +102,7 @@
   <h1 class="text-center status"> Losses:   <span id="losses"></span></h1>
   </div>
 </div>
-
+<!-- reference to the main game javascript -->
 
 <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
